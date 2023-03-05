@@ -31,9 +31,6 @@ targets.append(contentsOf: [
         .product(name: "Vapor", package: "vapor"),
         .product(name: "IRLLicence", package: "IRLLicence"),
         .product(name: "LeafErrorMiddleware", package: "leaf-error-middleware")
-    ],
-    swiftSettings: [
-        .unsafeFlags(["-cross-module-optimization"], .when(configuration: .release))
     ])
 ])
 

@@ -1,5 +1,8 @@
 # IRLLicencingMiddleware
 <p align="left">
+    <a href="https://doc-irllicencingmiddleware.irlmobile.com/documentation/">
+        <img src="https://github.com/irlmob/IRLLicencingMiddleware/raw/main/documentationicon.png" alt="Documentation">
+    </a>
     <a href="https://swift.org">
         <img src="http://img.shields.io/badge/Swift-5.7-brightgreen.svg" alt="Language">
     </a>
@@ -31,7 +34,7 @@ IRLLicencing primarily uses [SwiftPM](https://swift.org/package-manager/) as its
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/irlmob/IRLLicencingMiddleware.git", from: "1.0.0")
+    .package(url: "https://github.com/irlmob/IRLLicencingMiddleware.git", from: "1.0.1")
 ]
 ```
 
